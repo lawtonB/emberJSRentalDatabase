@@ -1,0 +1,7 @@
+<button {{action 'announcementsShow' }}>Show Announcement</button>
+{{#if isAnnouncementShowing}}
+    <li>{{announcement.announcement}} The weather today is {{announcement.weather}}
+      <button {{action 'delete' announcement}}>Delete</button>
+    </li>
+  {{else}}
+{{/if}}
