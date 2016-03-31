@@ -16,12 +16,11 @@ We hope you find exactly what you're looking for in a place to stay.
 
 <ul>
   {{#each model.cities as |city|}}
-  <li>{{city-tile city=city}}</li>
+  <li>{{#link-to 'city' city.id}} {{city.name}} {{/link-to}}</li>
   {{/each}}
 </ul>
 
 {{new-city saveCity= 'saveCity'}}
-{{new-rental save2="save3"}}
 {{new-announcement saveAnnouncement2 = 'saveAnnouncement3'}}
 
 {{#link-to 'about'}}About{{/link-to}}
