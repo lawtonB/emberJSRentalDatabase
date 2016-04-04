@@ -1,6 +1,9 @@
+<h4>Location: {{fullLocation}}</h4>
+
+
 <li>{{city.name}} in {{city.country}}</li>
 <ul>
-  {{#each city.rentals as |rentals|}}
+  {{#each sortedRentals as |rentals|}}
   <li>{{#link-to 'rental' rentals.id}}{{rentals.owner}}'s {{rentals.type}} in {{rentals.city.name}}{{/link-to}}</li>
   {{/each}}
 </ul>
