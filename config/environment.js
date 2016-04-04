@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'super-rentals',
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
-    firebase: 'https://emberrental.firebaseio.com',
+    firebase: 'https://superrentalslbja.firebaseio.com',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
