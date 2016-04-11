@@ -1,7 +1,6 @@
 # Super-rentals
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This project is an extension of the super rental emberJS tutorial project which includes calls to firebase and storing of new rentals in a network.
 
 ## Prerequisites
 
